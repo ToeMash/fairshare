@@ -18,13 +18,13 @@ There is currently no Minimum Viable Product (MVP) defined or built. There is a 
 
 ### Opportunity
 
-A real, working app would make things clearer, either for demonstration or for actual use. But this is Complicated by not yet having a clear "killer app" or best first use-case -- UX and security design depend on who will use the app, and how it will be used.
+A real, working app would make things clearer, either for demonstration or for actual use. But this is complicated by not yet having a clear "killer app" or best first use-case -- UX and security design depend on who will use the app, and how it will be used.
 
 Nonetheless, it is possible to move forward. As a first step towards an MVP, we can build testable and demoable single-page Web app that makes an arbitrary cut of what functionality is required.
 
 ### Goal and Needs
 
-Get consensus (_among whom?_) on what concrete behavior is needed for an MVP app, and get started on the next steps to produce one. To that end, th functional straw-person of this project should have:
+Get consensus (_among whom?_) on what concrete behavior is needed for an MVP app, and get started on the next steps to produce one. To that end, the functional straw-person of this project should have:
 
 - testable behavior, in an understandable visual display on _mobile and desktop_
 - readable code, without needing a bunch of specialized knowledge
@@ -68,7 +68,7 @@ The next group is probably needed for an MVP, but not necessarilly required for 
 - **State-tracking UI framework** - It's too early to pick a UI framework, _and_ I specifically want people to understand the current code without needing to first learn some specialist system. Thus everything is done in straight-up HTML + CSS + imperitive Javascript. It would be more robust, and possibly less code, to use a system that tracked changes to ApplicationState and automatically updated all/only those parts of the UI that need to be updated.
 - **Funding** - Although the first group of items above can be done very cheaply, it is still non-zero. An actual release will require some resources, as will UX design.
 - **App Ecosystem Integration** - It may be worthwhile to integrate the FairShare app into someone else's appstore, SDK, or other eccosystem/platform mechanism. (E.g., as a [World App "mini-app"](https://docs.world.org/mini-apps), which also provides [grants](https://world.org/rfp).) Alternatively, it might be worthwhile to allow other apps to be built into the FairShare platform. (See also, _updates_, below.)
-- **Notifications** - An everyday/allday app like this is most convenient if it running in the background, and notifies the user when they have received payment (or other _additioaml services_ activity, see above). Given the construction as a PWA, this is easily added (although some App Ecosystems need notifications to flow though them.)
+- **Notifications** - An everyday/allday app like this is most convenient if it is running in the background, and notifies the user when they have received payment (or other _additioaml services_ activity, see above). Given the construction as a PWA, this is easily added (although some App Ecosystems need notifications to flow though them.)
 
 Any of the following would be nice for an MVP, but it remains to be seen if they are absolutely necessary. It will likely depend on identifying a best first use-case, and the distribution mechanism for release.
 
